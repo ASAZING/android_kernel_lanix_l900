@@ -52,6 +52,10 @@
 
 #include <linux/msm-bus.h>
 
+#ifdef CONFIG_FORCE_FAST_CHARGE
+#include <linux/fastchg.h>
+#endif
+
 #define MSM_USB_BASE	(motg->regs)
 #define DRIVER_NAME	"msm_otg"
 
@@ -1571,7 +1575,20 @@ static void msm_otg_notify_charger(struct msm_otg *motg, unsigned mA)
 	if (motg->cur_power == mA)
 		return;
 
+<<<<<<< HEAD
 	dev_info(motg->phy.dev, "lishengli  Avail curr from USB = %u\n", mA);		//add by lishengli 20140911
+=======
+#ifdef CONFIG_FORCE_FAST_CHARGE
+	if (force_fast_charge > 0 && mA > 0) {
+		mA = IDEV_ACA_CHG_MAX;
+		pr_info("USB fast charging is ON\n");
+	} else {
+		pr_info("USB fast charging is OFF\n");
+	}
+#endif
+
+	dev_info(motg->phy.dev, "Avail curr from USB = %u\n", mA);
+>>>>>>> 67b7ed4... USB Fast charging
 
 	/*
 	 *  Use Power Supply API if supported, otherwise fallback
