@@ -2,7 +2,7 @@
 
 export ARCH=arm
 
-export CROSS_COMPILE=~/Android/toolchain/arm-eabi-4.7/bin/arm-eabi-
+export CROSS_COMPILE=~/Android/toolchain/arm-eabi-4.8/bin/arm-eabi-
 
 make msm8916-perf_defconfig
 
