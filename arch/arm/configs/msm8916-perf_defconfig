@@ -7,10 +7,14 @@
 
 CONFIG_CROSS_COMPILE=""
 <<<<<<< HEAD
+<<<<<<< HEAD
 CONFIG_LOCALVERSION="-@Team_Panther"
 =======
 CONFIG_LOCALVERSION="-Kernel-MoStock-V1.18-A6000"
 >>>>>>> 69ec304... fsync control added
+=======
+CONFIG_LOCALVERSION="-Kernel-MoStock-V1.23-A6000"
+>>>>>>> 312d3cd... msm_adreno_tz: be aware of suspended state
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_SYSVIPC=y
 CONFIG_NO_HZ=y
