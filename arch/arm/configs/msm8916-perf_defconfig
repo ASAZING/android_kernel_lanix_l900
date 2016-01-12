@@ -9,10 +9,14 @@ CONFIG_CROSS_COMPILE=""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 CONFIG_LOCALVERSION="-Saphyre"
 =======
 CONFIG_LOCALVERSION="-Kernel-MoStock-V1.39-A6000"
 >>>>>>> 15c9e0f... Upgrade to 3.10.61
+=======
+CONFIG_LOCALVERSION="-Kernel-MoStock-V1.40-A6000"
+>>>>>>> 2b4d00c... Upgrade to 3.10.62
 =======
 CONFIG_LOCALVERSION="-Kernel-MoStock-V1.40-A6000"
 >>>>>>> 2b4d00c... Upgrade to 3.10.62
