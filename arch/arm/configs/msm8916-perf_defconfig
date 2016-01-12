@@ -9,6 +9,7 @@ CONFIG_CROSS_COMPILE=""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 CONFIG_LOCALVERSION="-Saphyre"
 =======
 CONFIG_LOCALVERSION="-Kernel-MoStock-V1.32-A6000"
@@ -19,6 +20,9 @@ CONFIG_LOCALVERSION="-Kernel-MoStock-V1.33-A6000"
 =======
 CONFIG_LOCALVERSION="-Kernel-MoStock-V1.34-A6000"
 >>>>>>> 9185dc2... back to UberTC 5.3
+=======
+CONFIG_LOCALVERSION="-Kernel-MoStock-V1.35-A6000"
+>>>>>>> 7280c42... Update to 3.10.40+41
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_SYSVIPC=y
 CONFIG_NO_HZ=y
