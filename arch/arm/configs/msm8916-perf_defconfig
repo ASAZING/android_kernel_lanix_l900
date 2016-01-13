@@ -6,7 +6,11 @@
 # CONFIG_ARM_PATCH_PHYS_VIRT is not set
 
 CONFIG_CROSS_COMPILE=""
+<<<<<<< HEAD
 CONFIG_LOCALVERSION="-Saphyre"
+=======
+CONFIG_LOCALVERSION="-Kernel-MoStock-V1.41-A6000"
+>>>>>>> acd8eb6... Upgrade to 3.10.75
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_SYSVIPC=y
 CONFIG_NO_HZ=y
