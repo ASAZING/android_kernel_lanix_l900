@@ -8,6 +8,7 @@
 CONFIG_CROSS_COMPILE=""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 CONFIG_LOCALVERSION="-Saphyre"
 =======
 CONFIG_LOCALVERSION="-Kernel-MoStock-V1.41-A6000"
@@ -15,6 +16,9 @@ CONFIG_LOCALVERSION="-Kernel-MoStock-V1.41-A6000"
 =======
 CONFIG_LOCALVERSION="-Kernel-MoStock-V1.42-A6000"
 >>>>>>> 67ffa21... Upgrade to 3.10.90
+=======
+CONFIG_LOCALVERSION="-Kernel-MoStock-V1.43-A6000"
+>>>>>>> acf21f4... Upgrade to 3.10.94
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_SYSVIPC=y
 CONFIG_NO_HZ=y
