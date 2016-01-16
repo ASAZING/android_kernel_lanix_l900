@@ -140,9 +140,6 @@ source "drivers/staging/netlogic/Kconfig"
 
 source "drivers/staging/dwc2/Kconfig"
 
-<<<<<<< HEAD
-=======
 source "drivers/staging/prima/Kconfig"
->>>>>>> 35d75dd... Enabled latest prima wlan driver
 
 endif # STAGING
