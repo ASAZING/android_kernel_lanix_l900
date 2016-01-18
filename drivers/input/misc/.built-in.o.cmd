@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/built-in.o :=  /home/scraids/Android/toolchain/arm-eabi-4.8/bin/arm-eabi-ld -EL    -r -o drivers/input/misc/built-in.o drivers/input/misc/uinput.o drivers/input/misc/mmc3416x.o drivers/input/misc/mpu6880.o drivers/input/misc/akm8963.o drivers/input/misc/akm09911.o drivers/input/misc/bstclass.o drivers/input/misc/bma2x2.o drivers/input/misc/ltr553.o 
