@@ -537,6 +537,8 @@ deps_drivers/video/msm/mdss/mdss_dsi.o := \
     $(wildcard include/config/msm/pcie.h) \
   include/linux/regulator/consumer.h \
     $(wildcard include/config/regulator.h) \
+  include/linux/lcd_notify.h \
+    $(wildcard include/config/fb/msm/mdss.h) \
   drivers/video/msm/mdss/mdss.h \
   include/linux/msm_ion.h \
   include/linux/../../drivers/staging/android/ion/msm/msm_ion.h \

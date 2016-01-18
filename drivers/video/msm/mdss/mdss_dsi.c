@@ -21,11 +21,8 @@
 #include <linux/gpio.h>
 #include <linux/err.h>
 #include <linux/regulator/consumer.h>
-<<<<<<< HEAD
 
-=======
 #include <linux/lcd_notify.h>
->>>>>>> a1b4c26... add LCD_Notify
 #include "mdss.h"
 #include "mdss_panel.h"
 #include "mdss_dsi.h"
