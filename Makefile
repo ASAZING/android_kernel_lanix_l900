@@ -377,15 +377,12 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -fno-strict-aliasing -fno-common \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
-<<<<<<< HEAD
 		   -fno-delete-null-pointer-checks
-=======
 		   -Wno-bool-compare \
 		   -fno-delete-null-pointer-checks \
 		   -std=gnu89 \
 		   $(KERNEL_FLAGS)
 
->>>>>>> 8631448... UBER 5.2 related fixes
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL :=
 KBUILD_AFLAGS   := -D__ASSEMBLY__
