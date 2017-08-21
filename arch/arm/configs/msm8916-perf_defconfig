@@ -6,11 +6,8 @@
 # CONFIG_ARM_PATCH_PHYS_VIRT is not set
 
 CONFIG_CROSS_COMPILE=""
-<<<<<<< HEAD
 CONFIG_LOCALVERSION="-@Team_Panther"
-=======
 CONFIG_LOCALVERSION="-Kernel-MoStock-V1.12-A6000"
->>>>>>> 6fe3d39... upgrade to 3.10.29
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_SYSVIPC=y
 CONFIG_NO_HZ=y
