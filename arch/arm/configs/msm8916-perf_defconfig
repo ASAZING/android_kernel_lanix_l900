@@ -6,11 +6,7 @@
 # CONFIG_ARM_PATCH_PHYS_VIRT is not set
 
 CONFIG_CROSS_COMPILE=""
-<<<<<<< HEAD
 CONFIG_LOCALVERSION="-@Team_Panther"
-=======
-CONFIG_LOCALVERSION="-Kernel-MoStock-V1.7-A6000"
->>>>>>> 8631448... UBER 5.2 related fixes
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_SYSVIPC=y
 CONFIG_NO_HZ=y
