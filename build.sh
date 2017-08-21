@@ -2,13 +2,13 @@
 
 export ARCH=arm
 
-export CROSS_COMPILE=~/android/toolchain/arm-eabi-4.7/bin/arm-eabi-
+export CROSS_COMPILE=~/Android/toolchain/arm-eabi-4.7/bin/arm-eabi-
 
 make msm8916_l5510_defconfig
 
 START=$(date +%s)
 
-make -j8
+make -j20
 
 END=$(date +%s)
 BUILDTIME=$((END - START))

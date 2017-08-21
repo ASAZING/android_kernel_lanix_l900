@@ -6130,7 +6130,7 @@ static int ltr553_als_set_enable(struct sensors_classdev *sensors_cdev,
 		return -EINVAL;
 	}
 
-        pr_info("ltr553_L5510.c %s: enable = %d \n", __func__, enable);
+        pr_info("ltr553_L900.c %s: enable = %d \n", __func__, enable);
 
 	/* reinit device after resume */
 	if (enable == 1) {
