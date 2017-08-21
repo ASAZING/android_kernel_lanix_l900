@@ -6,23 +6,7 @@
 # CONFIG_ARM_PATCH_PHYS_VIRT is not set
 
 CONFIG_CROSS_COMPILE=""
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 CONFIG_LOCALVERSION="-Saphyre"
-=======
-CONFIG_LOCALVERSION="-Kernel-MoStock-V1.39-A6000"
->>>>>>> 15c9e0f... Upgrade to 3.10.61
-=======
-CONFIG_LOCALVERSION="-Kernel-MoStock-V1.40-A6000"
->>>>>>> 2b4d00c... Upgrade to 3.10.62
-=======
-CONFIG_LOCALVERSION="-Kernel-MoStock-V1.40-A6000"
->>>>>>> 2b4d00c... Upgrade to 3.10.62
-=======
-CONFIG_LOCALVERSION="-Kernel-MoStock-V1.40-A6000"
->>>>>>> 2b4d00c... Upgrade to 3.10.62
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_SYSVIPC=y
 CONFIG_NO_HZ=y
@@ -424,8 +408,6 @@ CONFIG_QPNP_VM_BMS=y
 CONFIG_QPNP_LINEAR_CHARGER=y
 CONFIG_POWER_RESET=y
 CONFIG_POWER_RESET_MSM=y
-<<<<<<< HEAD
-=======
 CONFIG_MSM_DLOAD_MODE=y
 # CONFIG_POWER_RESET_RESTART is not set
 # CONFIG_POWER_AVS is not set
