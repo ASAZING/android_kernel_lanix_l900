@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/ion/msm/built-in.o :=  /home/scraids/Android/toolchain/arm-eabi-4.8/bin/arm-eabi-ld -EL    -r -o drivers/staging/android/ion/msm/built-in.o drivers/staging/android/ion/msm/msm_ion.o drivers/staging/android/ion/msm/ion_iommu_map.o drivers/staging/android/ion/msm/secure_buffer.o 

@@ -1,0 +1,19 @@
+msm8939-qrd-skuk.o: arch/arm/boot/dts/qcom/msm8939-qrd-skuk.dts \
+ arch/arm/boot/dts/qcom/msm8939-qrd-skuk.dtsi \
+ arch/arm/boot/dts/qcom/msm8939-qrd.dtsi \
+ arch/arm/boot/dts/qcom/msm8939.dtsi \
+ arch/arm/boot/dts/qcom/skeleton64.dtsi \
+ /home/scraids/Kernel/android_kernel_lanix_l900/arch/arm/boot/dts/include/dt-bindings/clock/msm-clocks-8936.h \
+ arch/arm/boot/dts/qcom/msm8939-smp2p.dtsi \
+ arch/arm/boot/dts/qcom/msm8939-ipcrouter.dtsi \
+ arch/arm/boot/dts/qcom/msm8939-ion.dtsi \
+ arch/arm/boot/dts/qcom/msm8939-coresight.dtsi \
+ arch/arm/boot/dts/qcom/msm8939-iommu.dtsi \
+ arch/arm/boot/dts/qcom/msm-iommu-v2.dtsi \
+ arch/arm/boot/dts/qcom/msm-gdsc-8916.dtsi \
+ arch/arm/boot/dts/qcom/msm8939-bus.dtsi \
+ /home/scraids/Kernel/android_kernel_lanix_l900/arch/arm/boot/dts/include/dt-bindings/msm/msm-bus-ids.h \
+ arch/arm/boot/dts/qcom/msm8939-iommu-domains.dtsi \
+ arch/arm/boot/dts/qcom/msm-pm8916.dtsi \
+ arch/arm/boot/dts/qcom/msm8939-regulator.dtsi \
+ arch/arm/boot/dts/qcom/msm8939-pinctrl.dtsi
